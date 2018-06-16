@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>Página não encontrada</title>
+	<link rel="icon" href="images/favicon.ico">
+</head>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.btn {
+	text-align: center;
+	transition: .3s ease;
+	padding: 10px 20px;
+	background: #0799b4;
+	color: #222;
+	font-weight: bold;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .5);
+}
+
+.btn:active {
+	font-weight: normal;
+	padding: 5px 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background:  #111;
+	color: #eee;
+	font: 18px "Raleway";
+}
+
+.content {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+body > .content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+body > .content > .error-container {
+	display: flex;
+	align-items: center;
+}
+
+.error-container .bear {
+	max-width: 100px;
+	margin-left: 5px;
+}
+
+.error-container p {
+	margin-bottom: 10px;
+}
+
+.error-container > span {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+</style>
+
+<body>
+	<div class="content">
+		<div class="error-container 404">
+			<span>
+				<h1>Algo está errado</h1>
+				<p>Erro 404 - Página não encontrada</p>
+				<a class="btn" href="https://phildesign.tk">Voltar ao site</a>
+			</span>
+			<img class="bear" src="images/404.png" alt="">
+		</div>
+	</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(document).ready(() => {
+		$("div[style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;']").css("display", "none");
+	});
+</script>
+</html>

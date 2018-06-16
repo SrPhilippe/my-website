@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  #menu .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    aling-items: center; }
+    #menu .content ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      #menu .content ul li, #menu .content ul a {
+        display: block;
+        width: 100%; }
+      #menu .content ul a {
+        text-align: center; }
+    #menu .content .menu-control {
+      display: inline-block !important; } }

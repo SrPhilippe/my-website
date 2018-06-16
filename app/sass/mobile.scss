@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+	#menu {
+		.content {
+			flex-direction: column;
+			aling-items: center;
+			ul {
+				flex-direction: column;
+				li, a {
+					display: block;
+					width: 100%;
+				}
+				a {
+					text-align: center;
+				}
+			}
+			.menu-control {
+				display: inline-block !important;
+			}
+		}
+	}
+}

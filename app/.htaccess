@@ -1,0 +1,19 @@
+# HTID:4699472: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:4699472:
+
+php_value upload_max_filesize 500M
+php_value post_max_size 500M
+
+ErrorDocument 404 https://phildesign.tk/page-not-found
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+# Header Set Access-Control-Allow-Origin "*"
