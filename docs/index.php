@@ -215,20 +215,19 @@
         </div>
     </footer>
 </body>
+
 <!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cropper/4.0.0/cropper.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/form.js"></script>
 <script src="js/upload.js"></script>
 <script src="js/slider.js"></script>
-<!-- <script src="dist/p5.min.js"></script>
-<script src="js/sketch.js"></script> -->
 
 <!-- FontAwesome -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>

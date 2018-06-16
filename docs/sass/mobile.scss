@@ -2,19 +2,19 @@
 	#menu {
 		.content {
 			flex-direction: column;
-			aling-items: center;
-			ul {
-				flex-direction: column;
-				li, a {
-					display: block;
+			align-items: center;
+
+			.menu-control {
+				display: block;
+			}
+
+			> ul {
+				a,
+				li,
+				ul {
 					width: 100%;
-				}
-				a {
 					text-align: center;
 				}
-			}
-			.menu-control {
-				display: inline-block !important;
 			}
 		}
 	}

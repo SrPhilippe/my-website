@@ -8,7 +8,7 @@ gulp.task('default', () => {
 })
 
 gulp.task('css', () => {
-    gulp.src('./docs/sass/style.css')
+    gulp.src('./docs/sass/style.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(csso())
         .pipe(autoprefixer({
