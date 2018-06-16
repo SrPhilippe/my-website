@@ -1,10 +1,18 @@
 let gulp = require('gulp'),
-    sass = require('gulp-sass')
+    sass = require('gulp-sass'),
+    csso = require('gulp-csso'),
+    autoprefixer = require('gulp-autoprefixer')
 
 gulp.task('default', () => {
-    gulp.watch('./app/*.css', ['css'])
+    gulp.watch('./docs/sass/*.scss', ['css'])
 })
 
 gulp.task('css', () => {
-    console.log("oi")
+    gulp.src('./docs/sass/style.css')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(csso())
+        .pipe(autoprefixer({
+            browsers: ['last 1 version']
+        }))
+        .pipe(gulp.dest('./docs/dist'))
 })
