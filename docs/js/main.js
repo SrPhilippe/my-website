@@ -11,6 +11,15 @@ $(document).ready(() => {
     //     zindex: "5000"
     // });
 
+    $(".footer-slider").slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 1
+    })
+
     // Main event scroll page
     $(window).scroll((e) => {
         let windowHe = $(this).height();
@@ -51,7 +60,7 @@ $(document).ready(() => {
         $doc.animate({
             scrollTop: $($.attr(this, "href")).offset().top - $menu.height()
         }, 700);
-        e.preventDefault();
+        // e.preventDefault() // Just prevent the default action if you want to hide the anchor URL
     });
 
     $("#contato form input, #contato form textarea").each((i, el) => {

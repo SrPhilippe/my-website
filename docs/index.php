@@ -16,6 +16,7 @@
     <title>PhilD Home</title>
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -200,6 +201,26 @@
     <footer id="rodape">
         <div class="top">
             <div class="content">
+                <div class="footer-slider">
+                    <img src="images/brands/brand1.png" alt="">
+                    <img src="images/brands/brand2.png" alt="">
+                    <img src="images/brands/brand3.png" alt="">
+                    <img src="images/brands/brand4.png" alt="">
+                    <img src="images/brands/brand5.png" alt="">
+                    <img src="images/brands/brand6.png" alt="">
+                    <img src="images/brands/brand7.png" alt="">
+                    <img src="images/brands/brand8.png" alt="">
+                    <img src="images/brands/brand9.png" alt="">
+                    <img src="images/brands/brand10.png" alt="">
+                    <img src="images/brands/brand11.png" alt="">
+                    <img src="images/brands/brand12.png" alt="">
+                    <img src="images/brands/brand13.png" alt="">
+                    <img src="images/brands/brand14.png" alt="">
+                    <img src="images/brands/brand15.png" alt="">
+                    <img src="images/brands/brand16.png" alt="">
+                    <img src="images/brands/brand17.png" alt="">
+                    <img src="images/brands/brand18.png" alt="">
+                </div>
             </div>
         </div>
         <div class="bottom">
@@ -220,6 +241,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cropper/4.0.0/cropper.min.js"></script>
