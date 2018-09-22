@@ -22,8 +22,8 @@ $(document).ready(() => {
 
     // when some input changes
     $form.change((e) => {
-        let dataFile = $form.find("#upload-photo").prop("files")[0];
-        let reader = new FileReader();
+        let dataFile = $form.find("#upload-photo").prop("files")[0],
+            reader = new FileReader();
         reader.readAsDataURL(dataFile);
         reader.onload = (e) => {
             $image.attr("src", e.target.result);
